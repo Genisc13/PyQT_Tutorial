@@ -1,6 +1,6 @@
 import sys
 from pathlib import Path
-from PyQt6.QtWidgets import QApplication,  QWidget, QLabel, QLineEdit, QPushButton,  QVBoxLayout
+from PyQt6.QtWidgets import QApplication, QWidget, QLabel, QLineEdit, QPushButton, QVBoxLayout
 from PyQt6.QtCore import Qt
 from PyQt6.QtGui import QIcon
 
@@ -49,7 +49,6 @@ class MainWindow(QWidget):
 
 
 if __name__ == '__main__':
-
     app = QApplication(sys.argv)
     app.setStyleSheet(Path('login.qss').read_text())
     window = MainWindow()
