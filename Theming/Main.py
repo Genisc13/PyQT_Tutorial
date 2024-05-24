@@ -13,6 +13,7 @@ class MainWindow(QWidget):
 
         layout = QVBoxLayout()
         self.setLayout(layout)
+        
 
         heading = QLabel(
             'Welcome Back',
